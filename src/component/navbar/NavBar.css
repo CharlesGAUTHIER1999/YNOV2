@@ -1,0 +1,19 @@
+.header {
+    display: flex; /* Permet de mettre les éléments sur la même ligne */
+    align-items: center; /* Aligne verticalement les éléments */
+    justify-content: center; /* Centrer horizontalement les éléments */
+    background-color: #f0f0f0; /* Couleur de fond */
+    padding: 20px; /* Espacement autour du contenu */
+  }
+  
+  .logo {
+    width: 100px; /* Taille de l'image du logo */
+    height: auto; /* Pour que la taille soit proportionnelle */
+    margin-right: 20px; /* Espacement entre le logo et le texte */
+  }
+  
+  .title {
+    font-size: 36px; /* Taille du texte */
+    color: #333; /* Couleur du texte */
+    margin: 0; /* Enlever la marge par défaut du titre */
+  }
